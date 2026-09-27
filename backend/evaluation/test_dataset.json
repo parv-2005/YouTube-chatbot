@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the main topic of this video?",
+    "ground_truth": "The video discusses the main topic covered in the transcript.",
+    "video_id": null
+  },
+  {
+    "question": "Can you summarize the key points?",
+    "ground_truth": "The key points include the major concepts and ideas discussed in the video.",
+    "video_id": null
+  },
+  {
+    "question": "What examples are given in the video?",
+    "ground_truth": "The video provides several examples to illustrate the concepts being discussed.",
+    "video_id": null
+  },
+  {
+    "question": "What is the conclusion of the video?",
+    "ground_truth": "The video concludes with a summary of the main ideas and potential next steps.",
+    "video_id": null
+  },
+  {
+    "question": "Who is the speaker and what is their background?",
+    "ground_truth": "The speaker introduces themselves and their background at the beginning of the video.",
+    "video_id": null
+  }
+]

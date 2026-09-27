@@ -1,0 +1,51 @@
+# ── Web Framework ──
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.18
+
+# ── Database ──
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+
+# ── Authentication ──
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ── AI / LangChain ──
+langchain==0.3.14
+langchain-core>=0.3.29
+langchain-google-genai==2.0.8
+langchain-text-splitters==0.3.4
+langgraph==0.2.60
+
+# ── Embeddings & Vector Store ──
+qdrant-client==1.12.1
+
+# ── Search & Retrieval ──
+rank-bm25==0.2.2
+sentence-transformers==3.3.1
+
+# ── Transcript ──
+youtube-transcript-api==1.2.4
+yt-dlp>=2026.8.19
+
+# ── Whisper (requires PyTorch — ~2GB download on first install) ──
+# openai-whisper==20240930
+
+# ── Caching ──
+redis==5.2.1
+
+# ── Environment ──
+python-dotenv==1.0.1
+pydantic-settings==2.7.1
+pydantic[email]==2.10.4
+
+# ── Logging ──
+structlog==24.4.0
+
+# ── Evaluation ──
+ragas==0.2.8
+
+# ── Testing ──
+pytest==8.3.4
+httpx==0.28.1
